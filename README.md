@@ -1,17 +1,29 @@
-# openfoundry
+# OpenFoundry
 
-A new Flutter project.
+A community-based platform that connects young entrepreneurs to financiers in their local communities. Close the funding gap, one small contribution at a time.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
+- Flutter SDK 3.44+
+- Firebase project
 
-A few resources to get you started if this is your first Flutter project:
+### Setup
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+```bash
+# Clone and install dependencies
+cd of
+flutter pub get
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Configure Firebase (choose one)
+flutterfire configure          # Automatic (recommended)
+# OR manually edit lib/firebase_options.dart
+```
+
+Setup Firebase and enable Authentication, Firestore, and Storage.
+
+### Run
+
+```bash
+flutter run
+```
