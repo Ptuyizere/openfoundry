@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "821863078918",
+    "project_id": "openf-d4c57",
+    "storage_bucket": "openf-d4c57.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:821863078918:android:2b80d6a90f99116775f787",
+        "android_client_info": {
+          "package_name": "com.example.openfoundry"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-VXkoUBJJ5mRO3fRaMTzjwYf10Lebc-Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
